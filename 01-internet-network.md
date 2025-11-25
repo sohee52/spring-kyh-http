@@ -69,4 +69,4 @@
     - 도메인 네임 시스템, Domain Name System
     - 도메인 명을 DNS 서버에 등록하면, 도메인을 IP 주소로 변환해서 사용한다.
 
-![img.png](img.png)
+![img.png](images/img.png)
