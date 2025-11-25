@@ -110,7 +110,7 @@
 
 - 그림
 
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 - Cache-Control (캐시 지시어(directives)) 종류
     - Cache-Control: public
         - 응답이 public 캐시에 저장되어도 됨
