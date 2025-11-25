@@ -49,7 +49,7 @@
 ## HTTP 메서드의 속성
 
 - HTTP 메서드의 속성
-    ![img_1.png](img_1.png)
+    ![img_1.png](images/img_1.png)
     - 안전 (Safe Methods)
         - **호출해도 리소스를 변경하지 않는다.**
     - 멱등 (Idempotent Methods)
