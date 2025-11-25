@@ -2,8 +2,3 @@
 *.png
 *.jpg
 *.jpeg
-
-### IntelliJ IDEA ###
-.idea/
-*.iml
-out/
