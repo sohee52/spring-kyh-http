@@ -1,0 +1,102 @@
+- IP의 역할은 무엇인가요?
+- IP의 한계점에는 어떤 것들이 있나요?
+- 데이터가 전달되는 과정을 인터넷 프로토콜 스택의 4계층과 함께 설명해 보세요.
+- IP 패킷에 포함되는 정보에는 무엇이 있나요?
+- TCP 패킷에 포함되는 정보에는 무엇이 있나요?
+- TCP의 특징을 설명해 보세요.
+- TCP 3 way handshake 과정을 단계별로 설명해 보세요.
+- UDP는 TCP와 달리 어떤 특징을 가지고 있나요?
+- Port의 역할은 무엇인가요?
+- Port 번호의 범위와 잘 알려진 포트의 범위는 어떻게 되나요?
+- 대표적인 서비스 포트 번호(FTP, TELNET, HTTP, HTTPS)를 말해 보세요.
+- IP 주소만으로 통신할 때 발생하는 문제는 무엇인가요?
+- DNS의 역할은 무엇인가요?
+
+- URI란 무엇인가요?
+- URL과 URN의 차이를 설명하고, 실무에서 주로 쓰는 방식을 말하시오.
+- URL의 전체 문법 구조를 설명해 보세요.
+  scheme://[userinfo@]host[:port][/path][?query][#fragment]
+- 만약 `https://example.com/members/100?active=true#profile` 이라는 URL이 있다면,
+    - scheme, host, path, query, fragment를 구분해 보세요.
+
+- HTTP란 무엇이며, 어떤 특징을 가지고 있나요?
+- HTTP/0.9, HTTP/1.0, HTTP/1.1의 차이를 설명해 보세요.
+- HTTP/3는 기존과 달리 어떤 기반 프로토콜을 사용하며, 왜 그렇게 했나요?
+- 현재 가장 많이 사용되는 HTTP 버전은 무엇인가요?
+- HTTP에서 클라이언트-서버 구조란 무엇을 의미하나요?
+- Stateless의 의미와 장단점을 설명해 보세요.
+- Stateful과 Stateless의 서버 관련 차이를 설명해 보세요.
+- 무상태로 설계할 수 있는 서비스와 상태가 필요한 서비스의 예시를 말해 보세요.
+- 상태를 유지하기 위해 어떤 방법을 사용하나요?
+- 실무에선 Stateful과 Statelss 방법 중 어떤 방법으로 설계하는 것을 권장하나요?
+- 비연결성의 한계는 무엇이고, 이를 극복하기 위해 HTTP는 어떻게 발전했나요?
+- HTTP 메시지 구조는?
+- HTTP 요청 메시지(request-line)의 구성 요소를 설명해 보세요.
+- HTTP 응답 메시지(status-line)의 구성 요소를 설명해 보세요.
+- HTTP 헤더의 구성 요소를 설명해 보세요.
+- HTTP message body에는 어떤 데이터들이 담길 수 있나요?
+
+- API 설계 시 URI를 어떻게 설계해야 좋은가요? 리소스와 행위를 어떤 기준으로 분리해야 하는지도 설명해 주세요
+- GET 메서드의 특징과 주로 사용하는 데이터 전달 방식은 무엇인가요?
+- GET 요청에서 메시지 바디를 사용하는 것은 권장되나요? 그 이유는 무엇인가요?
+- POST 메서드의 사용 목적을 세 가지 경우로 나눠 설명해 보세요.
+- PATCH와 PUT의 차이를 설명해 보세요.
+- HEAD 메서드와 GET 메서드의 차이는 무엇인가요?
+- OPTIONS 메서드는 언제 주로 사용되나요?
+- CONNECT 메서드의 용도를 설명해 보세요.
+- TRACE 메서드는 어떤 목적으로 사용되나요?
+- HTTP 메서드의 속성을 설명하세요.
+
+- 클라이언트에서 서버로 데이터를 전송할 때 사용할 수 있는 두 가지 방식은 무엇인가요?
+- 정적 데이터 조회와 동적 데이터 조회의 차이를 설명해 보세요.
+- HTML Form에서 데이터를 전송할 때 `application/x-www-form-urlencoded`와 `multipart/form-data`의 차이를 설명해 보세요.
+- HTTP API 설계에서 컬렉션(Collection) 모델과 스토어(Store) 모델의 차이를 설명해 보세요.
+- HTML Form 기반 회원 관리 API에서 `POST /members/{id}/delete`와 같은 컨트롤 URI가 필요한 이유는 무엇인가요?
+
+- HTTP 상태 코드는 어떤 역할을 하나요?
+- 1xx 상태 코드는 어떤 상황에서 사용되나요?
+- 200 OK와 201 Created의 차이를 설명해 보세요.
+- 202 Accepted는 어떤 상황에서 주로 사용되나요?
+- 204 No Content는 언제 적합하게 사용될 수 있나요?
+- 301 Moved Permanently와 308 Permanent Redirect의 차이를 설명해 보세요.
+- 302 Found와 307 Temporary Redirect, 303 See Other의 차이는 무엇인가요?
+- PRG(Post/Redirect/Get) 패턴은 왜 필요한가요?
+- 304 Not Modified는 어떤 목적에서 사용되며, 응답 본문에 데이터가 포함될 수 있을까요?
+- 400 Bad Request는 어떤 경우에 발생하나요?
+- 401 Unauthorized와 403 Forbidden, 404 Not Found의 차이를 설명해 보세요.
+- 500 Internal Server Error와 503 Service Unavailable의 차이를 설명해 보세요.
+- 모르는 상태 코드(예: 451, 599 등)가 나타났을 때 클라이언트는 어떻게 처리해야 하나요?
+
+- 표현 헤더(Content-Type, Content-Encoding, Content-Language, Content-Length)의 역할을 각각 설명해 보세요.
+- Content-Length와 Transfer-Encoding을 동시에 사용할 수 있나요?
+- 클라이언트가 원하는 데이터 표현 방식을 서버에 알리기 위해 사용하는 헤더는 무엇인가요?
+- Accept-Language에서 q값을 사용하는 이유는 무엇인가요?
+- Accept 헤더에 `text/*;q=0.3, text/html;q=0.7, */*;q=0.5` 가 있을 때 어떤 순서로 선택되나요?
+- 단순 전송(Simple)과 압축 전송(Compressed)의 차이를 설명해 보세요.
+- Chunked Transfer Encoding은 언제 유용하게 쓰이나요?
+- Range Request는 어떤 상황에서 활용되나요?
+- Referer 헤더는 어떤 역할을 하나요?
+- User-Agent와 Server 헤더는 각각 어떤 용도로 쓰이나요?
+- Date 헤더는 요청과 응답 중 어디에 포함되나요?
+- Host 헤더가 필수인 이유는 무엇인가요?
+- Location 헤더는 어떤 상태 코드와 함께 주로 사용되나요?
+- Allow 헤더는 언제 포함되어야 하나요?
+- Retry-After 헤더는 주로 어떤 상태 코드와 함께 사용되나요?
+- Authorization 헤더와 WWW-Authenticate 헤더의 차이를 설명해 보세요.
+- Set-Cookie와 Cookie 헤더는 각각 언제 사용되나요?.
+- 세션 쿠키(Session Cookie)와 영속 쿠키(Persistent Cookie)의 차이는 무엇인가요?.
+- 쿠키에서 Domain 속성을 지정했을 때와 생략했을 때의 차이를 설명해 보세요.
+- 쿠키 Path 속성은 어떤 역할을 하나요?
+- Secure, HttpOnly, SameSite 옵션은 각각 어떤 보안 목적을 가지고 있나요?
+
+- 캐시를 적용하지 않았을 때 어떤 문제가 발생하나요?
+- 캐시를 적용하면 얻을 수 있는 이점은 무엇인가요?
+- 캐시 유효 시간이 초과되면 어떤 동작이 일어나나요?
+- 검증 헤더가 필요한 이유는 무엇인가요?
+- 데이터가 변경되지 않았을 때 서버는 어떤 상태 코드를 응답하나요? 304
+- Last-Modified 기반 검증 방식의 한계는 무엇인가요? 이에 반해 ETag는 어떠한 장점을 가지고 있나요?
+- Cache-Control: max-age와 Expires의 차이를 설명해 보세요.
+- Cache-Control: no-cache와 Cache-Control: no-store의 차이는 무엇인가요?
+- Cache-Control: s-maxage는 언제 사용되나요?
+- Age 헤더는 어떤 역할을 하나요?
+- 원 서버에 접근할 수 없는 경우 no-cache와 must-revalidate는 각각 어떻게 동작하나요?
