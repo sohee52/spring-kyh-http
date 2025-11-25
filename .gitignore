@@ -1,4 +1,4 @@
-### image file ###
-*.png
-*.jpg
-*.jpeg
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
